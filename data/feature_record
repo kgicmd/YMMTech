@@ -1,0 +1,52 @@
+user_id, goods_id, truck_type_match, truck_len_match,
+regular_subscribe_match, regular_search_match, regular_search_3_match,
+regular_search_7_match, regular_search_14_match, regular_search_30_match,
+line_match, line_30_match, line_60_match, gps_match,
+cargo_type, handling_type, truck_count, highway, lcl_cargo, mileage, regular_mileage,
+regular_mileage_avg,
+
+
+scan_cargo_level_3, scan_cargo_level_7, scan_cargo_level_14, scan_cargo_level_30, scan_cargo_level_avg,
+click_cargo_level_3, click_cargo_level_7, click_cargo_level_14, click_cargo_level30, click_cargo_level_avg,
+call_level_cargo_3, call_cargo_level_7, call_cargo_level_14, call_cargo_level_30, call_cargo_level_45, call_cargo_level_avg,
+call_level_7, call_level_14, call_level_30, call_level_45, call_level_avg,
+
+
+label=2
+平板      -1:4371, 1:2571, 0:558, 2:530
+高栏      -1:2259, 2:2110, 0:557, 1:450
+高低板    -1:179,  2:146,  2:33,  0:24
+危险      -1:5
+不限      -1:7
+保温冷藏  -1:79,   0:30,   2:17,   3:11
+厢式      -1:807,  3:326,  2:228,  0:221
+
+label=1
+平板      -1:22887,1:14335,2:4912,2:3993
+高栏      -1:11053,2:10828,0:3207,1:3171
+高低板    1:984,   -1:909, 2:303, 0:137
+危险      -1:38,   0:8     7:7,   2:7
+不限      -1:57,   2:12,   1:11
+保温冷藏  -1:502,  0:168,  2:149,  3:94
+厢式      -1:4748, 3:1898, 2:1712, 0:1386
+
+label=2
+0        平板：558，  高栏：557，  厢式：221
+1        平板：2571， 高栏：450，  高低板：100
+2        高栏：2110， 平板：530，  厢式：228
+3        厢式：326，  高栏：82，   平板：34
+7        厢式：2
+8        平板：1，
+9        厢式：7      保温冷藏：4  平板：1
+
+label=1
+0        平板：3993， 高栏：3247， 厢式：1386
+1        平板：14355，高栏：3171， 厢式：1173
+2        高栏：10828，平板：4912， 厢式：1712
+3        厢式：1898， 平板：738，  高栏：614
+7        平板：84，   厢式：21     高栏：19
+8        平板：37，   高栏：14     厢式：5
+9        高栏：112    厢式：102    平板：56
+
+
+
